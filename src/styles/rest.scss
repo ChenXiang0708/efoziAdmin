@@ -1,0 +1,140 @@
+/* reset */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  /*touch-action: none;*/
+}
+
+
+
+img {
+  border: none;
+  /*max-width: 100% !important;*/
+}
+
+li {
+  list-style: none
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+/* font.css */
+
+h1, .h1 {
+  font-size: 36px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 24px;
+}
+
+h4, .h4 {
+  font-size: 18px;
+}
+
+h5, .h5 {
+  font-size: 14px;
+}
+
+h6, .h6 {
+  font-size: 12px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  /* 手机端取消点击后的边框 */
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+a cite {
+  font-style: normal;
+  *cursor: pointer
+}
+
+a:active, a:hover {
+  outline: 0
+}
+
+small {
+  font-size: 12px;
+}
+
+
+
+address, cite, dfn, em, var, i {
+  font-style: normal;
+}
+
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hide {
+  display: none ;
+}
+
+.show {
+  display: block ;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.affix {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+
+.clear:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+}
+
+/* custom.css */
+.bold{font-weight: bold}
+.text-elip {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+
